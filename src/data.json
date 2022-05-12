@@ -1,0 +1,33 @@
+{
+    "user":{
+        "name": "Edvinas",
+        "surname": "Reikalas",
+        "image":"/photos/edvinas.jpg",
+        "title": "Animatorius/iliustratorius",
+        "text": "lorem ipsum jasdjsakj ajsdkas dajskdlalksxa ndsasnlask knsdlaksnlas knsalkanslca laksnlaksnlkas kanlkansdlkans lmaslnauhsra owboafbaofniba;fqoihf pojcoihaca;cn;wcnac"
+        
+    },
+    "preview":[
+        {   
+            "id": "1",
+            "image": "/photos/jm.jpg",
+            "title": "Juru muziejus",
+            "year": "2021"
+        },
+        {
+            "id": "2",
+            "image": "/photos/jm.jpg",
+            "title": "Juru muziejus 2",
+            "year": "2020"
+        },
+        {
+            "id": "3",
+            "image": "/photos/jm.jpg",
+            "title": "Juru muziejus 3",
+            "year": "2020"
+        }
+    ]
+        
+
+    
+}

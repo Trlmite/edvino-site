@@ -1,0 +1,19 @@
+@import './styles/variables.css';
+
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: var(--font-size);
+    color: var(--main-color);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+}
+

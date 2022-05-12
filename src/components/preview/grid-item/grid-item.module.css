@@ -1,0 +1,38 @@
+.gridItem{
+    display: flex;
+    min-width: calc(100%/3);
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+}
+.gridItem>span{
+    display: none;
+}
+.opacity{
+    width: 100%;
+    height: 100%;
+}
+
+.innerGridItem{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.gridItem:hover .innerGridItem{
+    display: flex;
+    background-color: grey;
+    opacity: 70%;
+}
+
+
+.gridItem:hover>span{
+    display: block;
+    color: white;
+}

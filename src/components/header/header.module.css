@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 0.1rem;
+    border-bottom: 0.5px solid var(--main-color)
+}
+.title{
+    font-weight: 700;
+}
+.anchor{
+    margin: 0 1rem;
+}
+
+a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 20px;
+}

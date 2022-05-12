@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title{
+    
+    font-size: 6rem;
+    font-weight: 800;
+}
+.image{
+    padding-left: 2rem;
+    width: 23.25rem;
+    height: 26rem;
+}
+.textBox{
+    position: relative;
+    max-width: 30%;
+    height: 30%;
+    left: -1.5rem;
+    top: 12.5rem;
+    background: white;
+    padding: 1.5rem;
+}
+.textBoxTitle{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.textBoxText{
+    font-size: var(--font-size);
+    font-weight: 400;
+}
