@@ -1,9 +1,11 @@
 .gridItem{
     display: flex;
-    min-width: calc(100%/3);
+    width: 33.33333%;
+    flex: 1 1 26%;
     justify-content: center;
     align-items: center;
     height: 18rem;
+    object-fit: fill;
 }
 .gridItem>span{
     display: none;
@@ -27,12 +29,17 @@
 
 .gridItem:hover .innerGridItem{
     display: flex;
-    background-color: grey;
-    opacity: 70%;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.589);
 }
 
 
 .gridItem:hover>span{
     display: block;
     color: white;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
 }
