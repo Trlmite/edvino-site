@@ -1,4 +1,4 @@
-.topText{
+.topText {
     display: flex;
     justify-content: flex-start;
     border-bottom: 0.5px solid #e2e4f2;
@@ -7,7 +7,8 @@
     font-weight: bolder;
     font-size: 4rem;
 }
-.grid{
+
+.grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
