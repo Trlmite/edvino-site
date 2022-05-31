@@ -31,7 +31,10 @@ const Preview = ({ data }) => {
             <div className={styles.topText}>Darbai</div>
             {modal ? <Modal
                 onClick={handleModalClose}
-                innerText={modalData.title}
+                title={modalData.title}
+                videoURL={modalData.videoURL}
+                description={modalData.description}
+                year={modalData.year}
             />
                 : null}
             <div className={styles.grid}>

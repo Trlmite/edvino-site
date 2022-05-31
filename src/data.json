@@ -12,22 +12,26 @@
             "id": "1",
             "image": "/photos/jm.jpg",
             "title": "Juru muziejus",
+            "videoURL": "https://www.youtube.com/embed/pAjS9aPYkiI",
+            "description": "lorem ipsum jasdjsakj ajsdkas dajskdlalksxa ndsasnlask knsdlaksnlas knsalkanslca laksnlaksnlkas kanlkansdlkans lmaslnauhsra owboafbaofniba;fqoihf pojcoihaca;cn;wcnac",
             "year": "2021"
         },
         {
             "id": "2",
             "image": "/photos/jm.jpg",
             "title": "Juru muziejus 2",
+            "videoURL": "https://www.youtube.com/embed/pAjS9aPYkiI",
+            "description": "Labai geras video 2",
             "year": "2020"
         },
         {
             "id": "3",
             "image": "/photos/jm.jpg",
             "title": "Juru muziejus 3",
+            "videoURL": "https://www.youtube.com/embed/pAjS9aPYkiI",
+            "description": "Labai geras video 3",
             "year": "2020"
         }
     ]
-        
-
     
 }
